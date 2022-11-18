@@ -1,0 +1,28 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #DE3163;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    border-radius: 10px;
+    
+}
+@keyframes moving{
+0%{
+    background-color: #DE3163; left: 0px; top: 0px;
+}
+25%{
+    background-color: #28B463; left: 1350px; top: 0px;
+}
+50%{
+    background-color: #F4D03F ;left:1350px; top: 550px ;
+}
+75%{
+    background-color: #7B241C ; left: 0px; top: 550px;
+}
+100%{
+    background-color: #CCD1D1 ;left: 0px; top: 0px;
+}
+}
